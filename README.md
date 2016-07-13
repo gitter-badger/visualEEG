@@ -23,4 +23,7 @@ In method 1, only *epoch time* and *sampling rate* are needed. In method 2, *sam
 ---
 
 ## Adding New Operations
-New operations can be added easily by implementing three steps in **eegOperations** class. 1) Adding the name of the operation to **AVAILABLE_OPERATIONS** property. 2) Implementing user interaction dialog boxes in **askArgs** function to acquire operation parameters. 3) Implementing the operation in **applyOperation** function.
+New operations can be added easily by implementing three steps in **eegOperations** class.
+1. Adding the name of the operation to **AVAILABLE_OPERATIONS** property.
+2. Implementing user interaction dialog boxes in **askArgs** function to acquire operation parameters.
+3. Implementing the operation in **applyOperation** function.
